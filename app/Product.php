@@ -1,12 +1,11 @@
 <?php
 
 namespace App;
+use Illuminate\Database\Eloquent\Model;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Foundation\Auth\Product as Authenticatable;
-use Illuminate\Notifications\Notifiable;
 
-class Product extends Authenticatable
+class Product extends Model
+
 {
     /**
      * The attributes that are mass assignable.
